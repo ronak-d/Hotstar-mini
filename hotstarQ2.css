@@ -1,0 +1,95 @@
+/* <!-- <style> */
+/* header style */
+        #navbar{
+            display: flex;
+            /* border: 2px solid red; */
+            border-radius: 7px;
+            margin: 5px;
+            font-family: 'Josefin Sans', sans-serif;     
+            /* box-shadow: 0 8px 8px -4px; */
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        #webimg{
+            width: 30%;
+            /* border: 3px solid black; */
+        }
+        #imgnav{
+            /* image width of nav bar */
+            width: 28%;
+            height: 100%;
+        }
+
+        #header_elements{
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            
+        }
+
+        li:hover{
+            transform: scale(1.2);
+            transition: transform .2s;
+            /* font-size: large; */
+            color: brown;
+        }
+
+        #Search_bar{
+            border-radius: 10px;
+            padding: 5px 5px;
+            margin-right: 5px;
+            border: 2px solid black;
+        }
+
+        #Search_button{
+            padding: 5px 5px;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        #search_items{
+            /* border: 3px solid black; */
+            padding-left: 170px;
+            padding-top: 14px;
+        }
+
+        /* body part */
+        #show_movie{
+            /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+            /* border: 2px solid black; */
+            margin: 15px 5px;
+            border-radius: 5px;
+            height: auto;
+            width: auto;
+            background-color:whitesmoke;
+
+            /* overflow: scroll; */
+        }
+
+        /* javascript css part */
+        #show_movie{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            /* grid-gap:20px */
+        }
+
+        #resImg{
+            height: 80%;
+            margin: 15px;
+            width: 80%;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        #resTitle, #reYear{
+            margin: 0px 15px;
+        }
+
+        #movieDiv:hover{
+            transform: scale(1.1); 
+            transition: transform .3s;
+            cursor: pointer;
+        }
+    /* </style> --> */
