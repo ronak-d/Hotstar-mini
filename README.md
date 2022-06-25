@@ -1,7 +1,7 @@
 # Hotstar-mini
 
- Demo link - 
+ Demo link - https://hotstar-debouncing-ls.netlify.app/
 
 - Web view shows the poster of the movies.
-- Search made as a denouncing method.
+- Search results are obtained via denouncing.
 - Also used Rest Api for fetching data.
